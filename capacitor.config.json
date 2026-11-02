@@ -1,0 +1,6 @@
+{
+  "appId": "com.personal.sampler",
+  "appName": "Sampler",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
