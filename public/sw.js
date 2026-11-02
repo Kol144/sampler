@@ -1,4 +1,4 @@
-const CACHE = 'sampler-shell-v4';
+const CACHE = 'sampler-shell-v5';
 const APP_FILES = ['./', './index.html', './manifest.webmanifest', './icons/sampler.svg'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(APP_FILES))));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key))))));
