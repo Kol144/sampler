@@ -23,3 +23,8 @@ npm run cap:sync
 Android se compila con Android Studio/SDK. iOS requiere macOS y Xcode. La app guarda proyectos y samples en IndexedDB dentro del dispositivo; exporta proyectos `.pulso` para copias o transferencias.
 
 Los formatos reproducibles y el tamaño máximo dependen de los decodificadores, memoria y almacenamiento del dispositivo. La herramienta estima BPM de un archivo que el navegador pueda decodificar; la tonalidad se introduce manualmente.
+
+
+
+
+Guía de conversión y compilación Android: [ANDROID.md](./ANDROID.md). Incluye compilación local y descarga del APK mediante GitHub Actions.
