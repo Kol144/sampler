@@ -1,6 +1,6 @@
 # Sampler para Android
 
-La app se empaqueta con Capacitor usando los archivos web incluidos en este repositorio. Los proyectos y samples siguen guardándose localmente en IndexedDB del dispositivo. El APK de depuración no está firmado para distribución en Google Play.
+La app se empaqueta con Capacitor usando los archivos web incluidos en este repositorio. Los proyectos, letras y samples se guardan localmente en IndexedDB dentro de los datos privados de la app; la apariencia elegida se guarda como preferencia global del dispositivo y se aplica a todos los proyectos. Los datos permanecen al cerrar y volver a abrir la app y al instalar una actualización. Android los elimina si desinstalas la app o borras sus datos. La app solicita al sistema conservar el almacenamiento local cuando la plataforma lo permite. El APK de depuración no está firmado para distribución en Google Play.
 
 ## Generar un APK local
 
